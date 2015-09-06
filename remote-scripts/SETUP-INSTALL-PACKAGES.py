@@ -314,7 +314,7 @@ if not os.path.isfile("packages.xml"):
 	exit ()
 
 set_variables_OS_dependent()
-UpdateRepos(current_distro)
+#UpdateRepos(current_distro)
 
 RunTest()
 
